@@ -7,11 +7,13 @@ double media(double M[][12]);
 
 double soma(double M[][12]){
     double s = 0.0;
+    
     for(int i = 1, k = 0; i < 6; i++, k++){
         for(int j = i; j < (12 - i); j++){
             s += M[k][j];
         }
     }
+    
     return s;
 }
 
