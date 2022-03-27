@@ -47,10 +47,10 @@ int main(){
     
     //Verifica o tipo de operação
     if(T == 'S'){
-        printf("%.1lf\n", soma(M));
+        printf("%.1lf", soma(M));
     }
     else{
-        printf("%.1lf\n", media(M));
+        printf("%.1lf", media(M));
     }
 
     return 0;
