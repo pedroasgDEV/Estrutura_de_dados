@@ -30,7 +30,7 @@ void mergesort(TipoAluno *alunos, int l, int r){
 
 void merge(TipoAluno *alunos, int l, int m, int r){
   int size_l = m - l + 1, size_r = r - m;
-  char vet_l[size_l][20], vet_r[size_r][20];
+  char vet_l[size_l][100], vet_r[size_r][100];
 
   //Aloca a parte esquerda para o vetor auxiliar
   for(int i = 0; i < size_l; i++)

@@ -1,0 +1,8 @@
+tab1/
+tab2/
+*.pdf
+*.out
+*.in
+*.o
+*.zip
+zip/
