@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon May 16 07:28:22 2022
+# Make data base, printed on Mon May 23 22:39:56 2022
 
 # Variables
 
@@ -47,11 +47,11 @@ CURDIR := /home/pedroasg/Downloads/UFOP/Periodo2/Estrutura1
 # makefile
 SHELL = /bin/sh
 # environment
-SNAP_DATA = /var/snap/code/96
+SNAP_DATA = /var/snap/code/97
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{},"_languagePackSupport":true}
 # environment
-JOURNAL_STREAM = 8:58713
+JOURNAL_STREAM = 8:57433
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # environment
@@ -75,7 +75,7 @@ DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-_ = /snap/code/96/usr/share/code/code
+_ = /snap/code/97/usr/share/code/code
 # environment
 MANAGERPID = 2063
 # environment
@@ -83,7 +83,7 @@ LESSOPEN = | /usr/bin/lesspipe %s
 # environment
 VSCODE_CWD = /home/pedroasg
 # environment
-GSETTINGS_SCHEMA_DIR = /snap/code/96/usr/share/glib-2.0/schemas
+GSETTINGS_SCHEMA_DIR = /snap/code/97/usr/share/glib-2.0/schemas
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
@@ -97,9 +97,9 @@ XDG_RUNTIME_DIR = /run/user/1000
 # environment
 GDK_PIXBUF_MODULE_FILE = /home/pedroasg/snap/code/common/.cache/gdk-pixbuf-loaders.cache
 # environment
-SNAP = /snap/code/96
+SNAP = /snap/code/97
 # environment
-SNAP_VERSION = da15b6fd
+SNAP_VERSION = c3511e6c
 # environment
 XDG_MENU_PREFIX = gnome-
 # environment
@@ -109,9 +109,9 @@ DISABLE_WAYLAND = 1
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = c8fdce9ca76c4fd0a6d70937f6233996
+INVOCATION_ID = 3814e98d90ab4c81b64f6d58fb3751c3
 # environment
-GDK_PIXBUF_MODULEDIR = /snap/code/96/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+GDK_PIXBUF_MODULEDIR = /snap/code/97/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -121,7 +121,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 5174
+GIO_LAUNCHED_DESKTOP_FILE_PID = 4687
 # automatic
 %F = $(notdir $%)
 # environment
@@ -151,7 +151,7 @@ LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 VSCODE_CLI = 1
 # environment
-VSCODE_CODE_CACHE_PATH = /home/pedroasg/.config/Code/CachedData/da15b6fd3ef856477bf6f4fb29ba1b7af717770d
+VSCODE_CODE_CACHE_PATH = /home/pedroasg/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
 # environment
 LOGNAME = pedroasg
 # environment
@@ -181,19 +181,19 @@ MAKECMDGOALS := all
 # environment
 QT_IM_MODULE = ibus
 # environment
-SNAP_USER_DATA = /home/pedroasg/snap/code/96
+SNAP_USER_DATA = /home/pedroasg/snap/code/97
 # environment
 SHLVL = 0
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-16222c62-fed8-4707-89f7-5f09060b2596.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-3af7abc1-ff7e-4b99-8482-3c1ef0ae9220.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
 USER = pedroasg
 # environment
-SNAP_REVISION = 96
+SNAP_REVISION = 97
 # makefile
 .DEFAULT_GOAL := 
 # environment
@@ -211,7 +211,7 @@ MAKE_COMMAND := make
 # environment
 LANGUAGE = pt_BR:pt:en
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-4c988548-1.67.1-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-4c988548-1.67.2-main.sock
 # environment
 BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
 # makefile
@@ -265,7 +265,7 @@ GJS_DEBUG_OUTPUT = stderr
 # environment
 LANG = C
 # environment
-VSCODE_PID = 5226
+VSCODE_PID = 4737
 # environment
 _CE_CONDA = 
 # variable set hash-table stats:
@@ -277,9 +277,9 @@ _CE_CONDA =
 
 # Directories
 
-# . (device 66308, inode 12584905): 12 files, no impossibilities.
+# . (device 66308, inode 12584905): 14 files, no impossibilities.
 
-# 12 files, no impossibilities in 1 directories.
+# 14 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -327,15 +327,14 @@ GNUmakefile:
 
 # No 'vpath' search paths.
 
- 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 20 / storage = 169 B / avg = 8 B
-# current buf: size = 8162 B / used = 169 B / count = 20 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 22 / storage = 189 B / avg = 8 B
+# current buf: size = 8162 B / used = 189 B / count = 22 / avg = 8 B
 
-# strcache performance: lookups = 23 / hit rate = 13%
+# strcache performance: lookups = 25 / hit rate = 12%
 # hash-table stats:
-# Load=20/8192=0%, Rehash=0, Collisions=1/23=4%
-# Finished Make data base on Mon May 16 07:28:22 2022
+# Load=22/8192=0%, Rehash=0, Collisions=1/25=4%
+# Finished Make data base on Mon May 23 22:39:56 2022
 
  
