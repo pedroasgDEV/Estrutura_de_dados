@@ -1,6 +1,4 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'all'.  Stop.
-
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -8,7 +6,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon May 23 22:39:56 2022
+# Make data base, printed on Thu May 26 08:46:37 2022
 
 # Variables
 
@@ -51,7 +49,7 @@ SNAP_DATA = /var/snap/code/97
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{},"_languagePackSupport":true}
 # environment
-JOURNAL_STREAM = 8:57433
+JOURNAL_STREAM = 8:54895
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # environment
@@ -77,7 +75,7 @@ VSCODE_VERBOSE_LOGGING = true
 # environment
 _ = /snap/code/97/usr/share/code/code
 # environment
-MANAGERPID = 2063
+MANAGERPID = 2042
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
@@ -91,7 +89,7 @@ PATH = /home/pedroasg/.local/bin:/home/pedroasg/anaconda3/condabin:/home/pedroas
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-SESSION_MANAGER = local/PedroasgPC:@/tmp/.ICE-unix/2290,unix/PedroasgPC:/tmp/.ICE-unix/2290
+SESSION_MANAGER = local/PedroasgPC:@/tmp/.ICE-unix/2268,unix/PedroasgPC:/tmp/.ICE-unix/2268
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -109,7 +107,7 @@ DISABLE_WAYLAND = 1
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = 3814e98d90ab4c81b64f6d58fb3751c3
+INVOCATION_ID = 0bb8d7071c2644379f9e8ade20c44538
 # environment
 GDK_PIXBUF_MODULEDIR = /snap/code/97/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # default
@@ -121,7 +119,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 4687
+GIO_LAUNCHED_DESKTOP_FILE_PID = 5950
 # automatic
 %F = $(notdir $%)
 # environment
@@ -137,7 +135,7 @@ PWD = /home/pedroasg/Downloads/UFOP/Periodo2/Estrutura1
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 2252
+SSH_AGENT_PID = 2229
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -187,7 +185,7 @@ SHLVL = 0
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-3af7abc1-ff7e-4b99-8482-3c1ef0ae9220.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-ef11a2c8-5a4f-4c58-b0b0-7d15cc978312.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -265,7 +263,7 @@ GJS_DEBUG_OUTPUT = stderr
 # environment
 LANG = C
 # environment
-VSCODE_PID = 4737
+VSCODE_PID = 6001
 # environment
 _CE_CONDA = 
 # variable set hash-table stats:
@@ -289,6 +287,9 @@ _CE_CONDA =
 
 # Not a target:
 all:
+ 
+make: *** No rule to make target 'all'.  Stop.
+
 #  Command line target.
 #  Implicit rule search has been done.
 #  File does not exist.
@@ -335,6 +336,6 @@ GNUmakefile:
 # strcache performance: lookups = 25 / hit rate = 12%
 # hash-table stats:
 # Load=22/8192=0%, Rehash=0, Collisions=1/25=4%
-# Finished Make data base on Mon May 23 22:39:56 2022
+# Finished Make data base on Thu May 26 08:46:37 2022
 
  
