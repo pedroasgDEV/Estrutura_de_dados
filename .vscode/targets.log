@@ -1,4 +1,6 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -6,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu May 26 15:17:09 2022
+# Make data base, printed on Thu May 26 16:16:14 2022
 
 # Variables
 
@@ -119,7 +121,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 4998
+GIO_LAUNCHED_DESKTOP_FILE_PID = 63522
 # automatic
 %F = $(notdir $%)
 # environment
@@ -153,7 +155,7 @@ VSCODE_CODE_CACHE_PATH = /home/pedroasg/.config/Code/CachedData/c3511e6c69bb3901
 # environment
 LOGNAME = pedroasg
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
 # environment
@@ -185,7 +187,7 @@ SHLVL = 0
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-ab3beab0-17e2-48e1-b09f-b48107fcda96.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-43b6759c-a7c5-4882-9db7-585e4de986e5.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -263,7 +265,7 @@ GJS_DEBUG_OUTPUT = stderr
 # environment
 LANG = C
 # environment
-VSCODE_PID = 5052
+VSCODE_PID = 63574
 # environment
 _CE_CONDA = 
 # variable set hash-table stats:
@@ -282,6 +284,7 @@ _CE_CONDA =
 # Implicit Rules
 
 # No implicit rules.
+ 
 
 # Files
 
@@ -320,9 +323,6 @@ GNUmakefile:
 #  Failed to be updated.
 
 # files hash-table stats:
- 
-make: *** No rule to make target 'all'.  Stop.
-
 # Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
 # VPATH Search Paths
 
@@ -336,6 +336,6 @@ make: *** No rule to make target 'all'.  Stop.
 # strcache performance: lookups = 26 / hit rate = 11%
 # hash-table stats:
 # Load=23/8192=0%, Rehash=0, Collisions=1/26=4%
-# Finished Make data base on Thu May 26 15:17:09 2022
+# Finished Make data base on Thu May 26 16:16:14 2022
 
  
